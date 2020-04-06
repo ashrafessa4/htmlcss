@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>searchweather</title>
+</head>
+<body>
+    <form action="https://www.wunderground.com/wundermap?lat=0&lon=0&zoom=3">
+    <p>Enter the Latitude</p>
+    <input type="number" min="-90" max="90" placeholder="70" name="lat">
+    <p>Enter the Longitude</p>
+    <input type="number" min="-180" max="180" placeholder="70" name="lon">
+    <p>Enter the Zoom level</p>
+    <select name="Zoom"> 
+        <option>1</option>
+        <option>3</option>
+        <option>5</option>
+        <option>10</option>
+    </select>
+    <br/><input type="submit" value="search"/>
+    </form>
+</body>
+</html>
